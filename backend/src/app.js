@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 app.use(express.json())
 // app.use('./api', require("./routes/newregister"))
 app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+    res.setHeader("Access-Control-Allow-Origin", "https://645603b8c8df09687aa53adb--glittering-lebkuchen-f89512.netlify.app");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept"
